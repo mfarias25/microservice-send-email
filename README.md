@@ -50,7 +50,8 @@ localhost:8080/sending-email
 ]
 ```
 ## Test Envio de Email por Mensageria
-
+![Test envio mensageria](https://github.com/mfarias25/microservice-send-email/assets/60070072/dc42bcb9-e3f5-426d-b1f6-79354ffefe02)
 
 
 ## Cloudamqp Instances RabbitMQ
+![projeto test CloudAMQP](https://github.com/mfarias25/microservice-send-email/assets/60070072/9714aab4-fd32-43d2-bf02-3a48a41c0166)
