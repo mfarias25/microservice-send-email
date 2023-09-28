@@ -6,6 +6,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Data // Lombok para nao precisar passar os getters, setter e contrutores.
 @Entity
@@ -16,7 +17,7 @@ public class EmailModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long emailId;
+    private UUID emailId;
     private String ownerRef; //Referencia do propietario que esta mandando a msg.
     private String emailFrom;
     private String emailTo;
